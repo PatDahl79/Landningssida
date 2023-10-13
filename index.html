@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script></script>
+    <title>Chas Academy-landningssida uppgift</title>
+
+</head>
+<body>
+    <section class="header">
+            <nav>
+                <a href="index.html"><img src="img/Logo.png" alt="Chad Academy Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <button class="close-button" onclick="hideMenu()"><i class="material-icons">close</i></button>                   
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Educations</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <div class="hero-btn" id="loginBtn">Sign in</div>
+                    </ul> 
+                </div>
+                    <button class="menu-button" onclick="showMenu()"><i class="material-icons">menu</i></button>
+            </nav>
+    </section>
+
+        <!--- Hero-section-->
+    <Section>
+        <div class="text-box">
+            <h1>Sweden's greatest university of applied sciences</h1>
+            <br>
+            <p>We will make sure that you reach your goals! 
+                <br> You just need to learn HTML, CSS, JavaScript, and you are good to go.</p>
+            <a href="" class="hero-btn">Apply</a>
+        </div>
+    </Section>
+    <!---Slut Hero-section-->
+        
+    
+    <!-- informerande-->
+    <section>
+        <div class="row">
+            <div class="col-1">
+                <img src="img/education.webp" alt="Digital Books">
+            </div>
+            <div class="col-2">
+                <h1>Chas academy</h1>
+                <a href="" class="hero-btn">Read more about us here...</a>
+                <br>
+                <p>We will make sure that you reach your goals! <br> You just need to learn HTML, CSS, JavaScript, and you are good to go.</p>
+            </div>
+        </div>
+    </section>
+    <!--Slut informerande-->
+
+
+    
+<!--Courses-grid-->
+<section class="courses">
+    <h2>Which program are you curioius about?</h2>
+    <div class="wrapper-grig">
+        <div class="grid-container">
+            <h3>UX/UI designer with fronten expertise</h3>
+            <p>User-centered design is one of the most in-demand IT skills. 
+                <br><br>A UX/UI designer with front-end competence has a combination of specialized knowledge in design and design processes as well as knowledge of the adjacent field of software development.</p>
+                <span class="icon-link">
+                    <a href="" class="hero-btn">Get to know our program<i class="material-icons">&#xe5c8;</i></a>
+                </span>
+        </div>
+        <div class="grid-container">
+            <h3>Frontend developer for mobile and web</h3>
+            <p>By training to become a frontend and app developer with a focus on both Javascript and React Native, 
+                you get a unique skills profile that is in high demand on the job market.
+                <br><br>You get an overview of the industry and learn how the technology behind the development interacts with design and layout and supports the customer's digital experience (UX/UI).</p>
+                <span class="icon-link">
+                    <a href="" class="hero-btn">Get to know our program<i class="material-icons">&#xe5c8;</i></a>
+                </span>
+        </div>
+        <div class="grid-container">
+            <h3>Developer enginerrs</h3>
+            <p>Companies in the IT industry of the 2020s must be able to deliver new, error-free updates and features almost immediately when users demand them. 
+                <br><br>It's a big difference from the past, 
+                when major software companies could publish a new version every two years and deliver bug fixes several months apart.</p>
+                <span class="icon-link">
+                    <a href="" class="hero-btn">Get to know our program<i class="material-icons">&#xe5c8;</i></a>
+                </span> 
+        </div>
+        <div class="grid-container">
+            <h3>Full stack web developer</h3>
+            <p>Fullstack is one of the market's most sought-after roles right now. A flexible role with a strong focus on the solution. 
+                Being full-stack means you can code anywhere and together with specialists in all areas of development. 
+                <br><br>A UX/UI designer with front-end competence has a combination of specialized knowledge in design and design processes as well as knowledge of the adjacent field of software development.</p>
+                <span class="icon-link">
+                    <a href="" class="hero-btn">Get to know our program<i class="material-icons">&#xe5c8;</i></a>
+                </span>  
+            </div>
+    </div>
+</section>
+<!--Slut courses-grid-->
+
+
+
+    <!--Rekommendationer-->
+    <section class="comment">
+        <h1>What our students say?</h1>
+
+        <div class="rekomendation">
+            <div class="rekomendationer">
+                <h3>Fun</h3>
+                <p>....... <br> ....</p>
+                <img src="img/boy 1.webp">
+                <h4>Mark D</h4>
+            </div>
+            <div class="rekomendationer">
+                <h3>Exciting</h3>
+                <p>....... <br> ....</p>
+                <img src="img/boy 2.webp">
+                <h4>Jack Q</h4>
+            </div>
+            <div class="rekomendationer">
+                <h3>Best</h3>
+                <p>....... <br> ....</p>
+                <img src="img/girl 2.avif">
+                <h4>Rose M</h4>
+            </div>
+        </div>
+    </section>
+    <!--Slut Rekommendationer-->
+
+
+    <!---upprepa call to action--->
+    <Section>
+        <div class="text-box2">
+            <h1>The application is open!</h1>
+            <br>
+            <p>Be the one of our students! 
+                <br>We will be happy to have you here.</p>
+            <a href="" class="hero-btn">Apply</a>
+        </div>
+    </Section>
+    <!---Slut upprepa call to action--->
+        
+
+<!--login section-->
+
+    <div class="Logga-in">
+        <div class="log-in">
+            <h2>Sign in</h2><br>
+            <form action="https://httpbin.org/anything" method="post">
+                <label for="username">Username:</label>
+                <input id="username" name="username" type="text" required><br>
+                <label for="password">Password:</label>
+                <input id="password" name="password" type="password" required><br>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="forget-password">
+                <h2>Forget yours password?</h2>
+                <form action="https://httpbin.org/anything" method="post">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" required><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="sign-up">
+            <h2>Sign up</h2><br>
+            <form action="https://httpbin.org/anything" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname" required><br> 
+               
+                <label for="telephonenumber">Phone number:</label>
+                <input type="number" id="telephonenumber" name="telephonenumber" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+               
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+               
+                <label for="password">Confirm password:</label>
+                <input type="password" id="password" name="password" required><br>
+            </form>
+            
+            <div class="gender">
+                <h2>Gender</h2>
+                <form action="https://httpbin.org/anything" method="post">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </form>
+            </div>
+
+            <div class="interacts">
+                <h2>What are your interest?</h2>
+                    <input type="checkbox" id="programming" name="interests" value="programming">
+                    <label for="programming">Programmering</label>
+                    <input type="checkbox" id="gaming" name="interests" value="gaming">
+                    <label for="gaming">Game</label>
+                    <input type="checkbox" id="reading" name="interests" value="reading">
+                    <label for="reading">Reading</label><br>
+                    <input type="checkbox" id="drawing" name="interests" value="drawing">
+                    <label for="drawing">Drawing</label>
+                    <input type="checkbox" id="training" name="interacts" value="training">
+                    <label for="training">Training</label>
+                    <input type="checkbox" id="dancing" name="interacts" value="dancing">
+                    <label for="dancing">Dancing</label>
+                    <br>
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    <!--Slut login section-->
+
+
+<!--fotter-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-1">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">YH-program</a></li>
+                    <li><a href="">Chas upskill</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">How to search</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-2">
+                <h3>Contact us</h3>
+                <br>
+                    <ul>
+                        <h4>Mail</h4>
+                        <li><a href="">infor@chasacademy.se</a></li>
+                    </ul>
+                <br>
+                    <div>
+                        <h4>Adress:</h4>
+                        <p>Arenavägen 61 <br> 121 77 Johanneshov</p>
+                    </div>
+            </div>      
+            <div class="footer-3">
+                <img src="img/Logo.png" alt="Chas Academy Logo">
+            </div>
+        </div>
+
+    </footer>
+<!--slut fotter-->
+<hr>
+<p class="copyright">Made by Pat Dahl, Chas academy's student</p>
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
